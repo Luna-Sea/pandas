@@ -28,6 +28,7 @@ print(male_length)#将male_data中Shell列转化为列表
 #以pandas的DataFrame对象中的Length和Diameter，绘制散点图（scatter） 折线图（line）
 #柱形图（bar） 水平柱状图（barh）
 male_data.plot(x='Length', y='Diameter', kind='scatter')
+#plot是对 Matplotlib 的封装
 plt.show()
 
 #分组
